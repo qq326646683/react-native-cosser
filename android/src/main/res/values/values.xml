@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="article_row_text_color">#FF000000</color>
+    <color name="articles_divider_color">#e3e3e3</color>
+    <color name="bottom_customer_text_color">#4c4c4c</color>
+    <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="btn_gray_pressed_status">#b5b5b6</color>
+    <color name="comment_text_color">#2b2b2b</color>
+    <color name="common_bg">#fcfcfc</color>
+    <color name="common_botton_bar_blue">#2ea7e0</color>
+    <color name="divider_color">#979797</color>
+    <color name="emoji_send_btn_disable_bg_color">#D8D8D8</color>
+    <color name="emoji_send_btn_enable_bg_color">#b81616</color>
+    <color name="emojicon_tab_nomal">#ffffff</color>
+    <color name="emojicon_tab_selected">#D9D9D9</color>
+    <color name="gray_normal">#666667</color>
+    <color name="gray_pressed">#b5b5b6</color>
+    <color name="grid_state_focused">#80000000</color>
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="main_bg_color">#00FFFFFF</color>
+    <color name="main_text_color">#FFFFFF</color>
+    <color name="new_leave_hint_text_color">#979797</color>
+    <color name="new_leave_text_color">#4c4c4c</color>
+    <color name="normal_bg_color">#FFFFFF</color>
+    <color name="orange">#FFA500</color>
+    <color name="sub_page_title_bg_color">#b6000000</color>
+    <color name="title_bg_color">#000000</color>
+    <color name="top_bar_normal_bg">#b6000000</color>
+    <declare-styleable name="BubbleImageView"><attr format="dimension|reference" name="bubble_arrowTop"/><attr format="dimension|reference" name="bubble_arrowWidth"/><attr format="dimension|reference" name="bubble_arrowHeight"/><attr format="dimension|reference" name="bubble_arrowOffset"/><attr format="dimension|reference" name="bubble_angle"/><attr format="enum" name="bubble_arrowLocation">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="EaseChatExtendMenu"><attr format="integer" name="numColumns"/></declare-styleable>
+    <declare-styleable name="EaseChatMessageList"><attr format="reference" name="msgListMyBubbleBackground"/><attr format="reference" name="msgListOtherBubbleBackground"/><attr format="boolean" name="msgListShowUserAvatar"/><attr format="boolean" name="msgListShowUserNick"/></declare-styleable>
+    <declare-styleable name="EaseTitleBar"><attr format="string" name="titleBarTitle"/><attr format="reference" name="titleBarLeftImage"/><attr format="reference" name="titleBarRightImage"/><attr format="reference|color" name="titleBarBackground"/></declare-styleable>
+    <declare-styleable name="HDEmojiconMenu"><attr format="integer" name="hdBigEmojiconRows"/><attr format="integer" name="hdEmojiconColumns"/></declare-styleable>
+    <dimen name="activity_comment_reply_file_layout_width">250dp</dimen>
+    <dimen name="activity_comment_reply_file_name_max_width">180dp</dimen>
+    <dimen name="bottom_big_btn_height">40dp</dimen>
+    <dimen name="bottom_big_btn_margin_bottom">15dp</dimen>
+    <dimen name="bottom_big_btn_width">310dp</dimen>
+    <dimen name="bottom_btn_margin_right">16dp</dimen>
+    <dimen name="bottom_customer_text_size">19sp</dimen>
+    <dimen name="bottom_navi_height">50dp</dimen>
+    <dimen name="bottom_text_margin_left_icon">8dp</dimen>
+    <dimen name="chat_nick_margin_left">12dp</dimen>
+    <dimen name="chat_nick_text_size">13sp</dimen>
+    <dimen name="comment_text_size">14sp</dimen>
+    <dimen name="custom_emoji_default_wh">100dp</dimen>
+    <dimen name="height_top_bar">48dp</dimen>
+    <dimen name="image_thumbnail_size">100dp</dimen>
+    <dimen name="image_thumbnail_spacing">1dp</dimen>
+    <dimen name="main_content_text_size">17sp</dimen>
+    <dimen name="margin_chat_activity">5dp</dimen>
+    <dimen name="new_leave_content_height">200dp</dimen>
+    <dimen name="new_leave_item_edit_text_width">200dp</dimen>
+    <dimen name="new_leave_item_height">50dp</dimen>
+    <dimen name="new_leave_margin_side">25dp</dimen>
+    <dimen name="new_leave_success_content_margin_top">145dp</dimen>
+    <dimen name="new_leave_success_icon_margin_top">30dp</dimen>
+    <dimen name="new_leave_success_icon_size">60dp</dimen>
+    <dimen name="new_leave_success_layout_height">180dp</dimen>
+    <dimen name="new_leave_success_title_margin_top">120dp</dimen>
+    <dimen name="new_leave_text_size">16sp</dimen>
+    <dimen name="pop_list_height">48dp</dimen>
+    <dimen name="pop_list_width">120dp</dimen>
+    <dimen name="pop_menu_text_size">16sp</dimen>
+    <dimen name="size_avatar">48dp</dimen>
+    <dimen name="sub_content_text_size">14sp</dimen>
+    <dimen name="ticket_detail_text_size">16sp</dimen>
+    <dimen name="title_back_btn_layout_width">39dp</dimen>
+    <dimen name="title_back_btn_size">25dp</dimen>
+    <dimen name="title_customer_icon_size">17dp</dimen>
+    <dimen name="title_height">56dp</dimen>
+    <dimen name="title_icon_btn_layout_width">39dp</dimen>
+    <dimen name="title_text_margin">16dp</dimen>
+    <dimen name="title_text_size">19sp</dimen>
+    <item name="chat_menu_file" type="id"/>
+    <item name="chat_menu_pic" type="id"/>
+    <item name="chat_menu_take_pic" type="id"/>
+    <item name="chat_menu_video" type="id"/>
+    <string name="Did_not_download">Not yet downloaded</string>
+    <string name="Download_the_pictures">Download the pictures: 0%</string>
+    <string name="Download_the_pictures_new">Download the pictures:</string>
+    <string name="Failed_to_download_file">Failed to download file:</string>
+    <string name="File_does_not_exist">File does not exist</string>
+    <string name="Have_downloaded">Already downloaded</string>
+    <string name="Is_download_voice_click_later">Downloading the voice message, click later</string>
+    <string name="Open_the_equipment_failure">Open the equipment failure!</string>
+    <string name="Recording_without_permission">Recording without permission</string>
+    <string name="Send_voice_need_sdcard_support">Send voice need sdcard support</string>
+    <string name="The_file_is_not_greater_than_10_m">The file is not greater than 10 m</string>
+    <string name="The_recording_time_is_too_short">The recording time is too short</string>
+    <string name="The_video_to_start">The video to start</string>
+    <string name="Whether_to_empty_all_chats">Clear all messages?</string>
+    <string name="Whether_to_send">Are you sure to send?</string>
+    <string name="attach_file">File</string>
+    <string name="attach_location">Location</string>
+    <string name="attach_picture">相册</string>
+    <string name="attach_take_pic">相机</string>
+    <string name="attach_video">Video</string>
+    <string name="button_pushtotalk">Hold to talk</string>
+    <string name="button_send">Send</string>
+    <string name="cancel">Cancel</string>
+    <string name="cant_find_pictures">"Can't find pictures"</string>
+    <string name="chat_primary_text_hint">请输入反馈信息</string>
+    <string name="chat_row_article_view_all">CLick to view full article</string>
+    <string name="chat_row_new_picture_title">I am focus at it.</string>
+    <string name="confirm_resend">Confirm to resend？</string>
+    <string name="connect_failuer_toast">Please check the network or try again later</string>
+    <string name="current_wait_count">current wait count is %d</string>
+    <string name="date_day">day</string>
+    <string name="date_month">month</string>
+    <string name="downwaiting">Downloading the file, please try again later</string>
+    <string name="dynamic_expression">[Dynamic expression]</string>
+    <string name="ease_record_menu_too_short">Record time is too short.</string>
+    <string name="easemob_cs_title">EasemobMall Customer Service</string>
+    <string name="em_chat_I_focus">I focus on</string>
+    <string name="em_chat_invite_video_call">Invite customer service making a video call</string>
+    <string name="emoji_icon_update">Emoji icon update.</string>
+    <string name="emojicon_text_default">Default</string>
+    <string name="error_send_invalid_content">The message content is not allowed to be sent!</string>
+    <string name="file">[file]</string>
+    <string name="is_down_please_wait">Downloading video, please try again later</string>
+    <string name="loading_more">Loading more……</string>
+    <string name="location_message">The location information</string>
+    <string name="location_prefix">[my location]</string>
+    <string name="location_recv">[%1$s location]</string>
+    <string name="message_content_beyond_limit">The message content beyond the limit</string>
+    <string name="move_up_to_cancel">Finger up to cancel sending</string>
+    <string name="new_leave_item_empty_value_toast">Please input required item!</string>
+    <string name="new_leave_item_hint_text">Required</string>
+    <string name="new_leave_msg_alert_ok">OK</string>
+    <string name="new_leave_msg_sub_fail">Submit fail!</string>
+    <string name="new_leave_msg_sub_fail_alert_content">Please recheck your network and submit it again!</string>
+    <string name="new_leave_send_description">Thank you for your leave message.\nWe will give you a response at the first time.</string>
+    <string name="new_leave_send_success">Submit successful</string>
+    <string name="no_more">No more.</string>
+    <string name="no_more_messages">no more messages</string>
+    <string name="not_download">Did not download:</string>
+    <string name="ok">OK</string>
+    <string name="picture">[Picture]</string>
+    <string name="prompt">Prompt</string>
+    <string name="recoding_fail">The recording failure, please try again！</string>
+    <string name="recorder_video_processing">processing…</string>
+    <string name="recording_description">Release to end, finger up to cancel sending.</string>
+    <string name="recording_video">Record video</string>
+    <string name="release_to_cancel">Finger release to cancel sending</string>
+    <string name="resend">Resend</string>
+    <string name="robot_menu">[Menu Message]</string>
+    <string name="sd_card_does_not_exist">"SD card does not exist, can't take pictures"</string>
+    <string name="send_fail">Send failed</string>
+    <string name="send_failure_please">Send failure, please test whether the server connection</string>
+    <string name="setting">Settings</string>
+    <string name="shop_detail_kefu_service">Connect to Customer Service</string>
+    <string name="shop_detail_title">Detail</string>
+    <string name="str_recorder_recording">release to end</string>
+    <string name="temporary_does_not">Not support larger than 10M video</string>
+    <string name="text_ack_msg">Read</string>
+    <string name="text_delivered_msg">Delivered</string>
+    <string name="ticket_detail">Detail</string>
+    <string name="ticket_email">Email</string>
+    <string name="ticket_name">Name</string>
+    <string name="ticket_phone">Phone</string>
+    <string name="ticket_theme">Theme</string>
+    <string name="ticket_time">Date</string>
+    <string name="transfertocs">Transfer Kefu</string>
+    <string name="video">[Video]</string>
+    <string name="video_call_accept">Accept</string>
+    <string name="video_call_hang_up">Hang Up</string>
+    <string name="video_call_reject">Reject</string>
+    <string name="video_footage">Video record</string>
+    <string name="video_record_error">Recording error has occurred. Stopping the recording</string>
+    <string name="voice_prefix">[Voice]</string>
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/hd_push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/hd_push_bottom_out</item>
+    </style>
+    <style name="AnimFade" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/hd_fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/hd_hold</item>
+        <item name="android:activityCloseExitAnimation">@anim/hd_fade_out</item>
+    </style>
+    <style name="AnimFade2" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/hd_slide_in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/hd_slide_out_to_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/hd_slide_out_to_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/hd_slide_in_from_left</item>
+    </style>
+    <style name="AnimHead" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/hd_head_in</item>
+        <item name="android:windowExitAnimation">@anim/hd_head_out</item>
+    </style>
+    <style name="AnimTop2" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/hd_push_top_in2</item>
+        <item name="android:windowExitAnimation">@anim/hd_push_top_out2</item>
+    </style>
+    <style name="MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="Theme_Audio_Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="chat_content_date_style">
+        <item name="android:minHeight">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:background">#bfbfbf</item>
+    </style>
+    <style name="chat_text_date_style">
+        <item name="android:padding">2dp</item>
+        <item name="android:paddingTop">2dip</item>
+        <item name="android:paddingBottom">2dip</item>
+        <item name="android:paddingLeft">12dip</item>
+        <item name="android:paddingRight">12dip</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">#ffffff</item>
+    </style>
+    <style name="chat_text_name_style">
+        <item name="android:textColor">#818181</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="horizontal_slide" parent="android:Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/AnimFade2</item>
+    </style>
+    <style name="myRatingBar" parent="@android:style/Widget.RatingBar">
+ 	    <item name="android:progressDrawable">@drawable/hd_ratingbar_drawable</item>
+ 	    <item name="android:minHeight">40dip</item>
+ 	    <item name="android:maxHeight">40dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:thumb">@null</item>
+ 	</style>
+</resources>

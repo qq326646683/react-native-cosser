@@ -1,0 +1,18 @@
+{
+  "name": "react-native-cosser",
+  "version": "1.0.0",
+  "description": "环信客服功能",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\"git+https://github.com/qq326646683/react-native-cosser\""
+  },
+  "keywords": [
+    "easemob"
+  ],
+  "author": "nell",
+  "license": "MIT"
+}
