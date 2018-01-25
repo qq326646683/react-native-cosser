@@ -1,2 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.react_native_cosser" />
+    package="com.example.react_native_cosser" >
+    <application>
+        <activity android:name=".easeui.ui.BaseChatActivity"/>
+    </application>
+</manifest>

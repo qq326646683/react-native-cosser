@@ -1,2 +1,4 @@
-import React, { NativeModules } from 'react-native';
-module.exports = NativeModules.CosSerModule;
+var CosSerModule = require('react-native').NativeModules.CosSerModule;
+
+module.exports = CosSerModule
+
