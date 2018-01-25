@@ -1,6 +1,6 @@
-环信客服功能集成
 ## 1.INSTALL
 1.npm install react-native-cosser --save
+
 2.setting.gradle添加:
 
 	include ':react-native-cosser'
