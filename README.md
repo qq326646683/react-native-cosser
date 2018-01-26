@@ -1,33 +1,27 @@
-这是android文档，ios文档待整理
 ## 1.INSTALL
-1.npm install react-native-cosser --save
+根目录下运行：
 
-2.setting.gradle添加:
+    npm install react-native-cosser --save
 
-	include ':react-native-cosser'
-    project(':react-native-cosser').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-cosser/android')
+    react-native link react-native-cosser 
+
+#### Android:
     
-3.app/build.gradle添加:
+1.MainApplication.java添加：
 
-	compile project(':react-native-cosser')
-	
-4.MainApplication.java添加：
+    import com.example.react_native_cosser.easeui.UIProvider;
+    import com.hyphenate.chat.ChatClient;
 
-    getPackages() {
+    onCreate(){
         ...
-	    new CosSerPackage()
-	}
-
-	onCreate(){
-	    ...
-    	//初始化客服功能
-         ChatClient.getInstance().init(this, new ChatClient.Options().setAppkey("1429180122061804#kefuchannelapp52167").setTenantId("52167"));
+        //初始化客服功能
+        ChatClient.getInstance().init(this, new ChatClient.Options().setAppkey("1429180122061804#kefuchannelapp52167").setTenantId("52167"));
         // Kefu EaseUI的初始化
         UIProvider.getInstance().init(this);
 
-	}
-	
-5.替换key：
+    }
+    
+2.替换key：
 
     serviceId：
         需要替换掉CosSerModule.java 中 27行serviceId：获取地址：kefu.easemob.com，“管理员模式 > 渠道管理 > 手机APP”页面的关联的“IM服务号”
@@ -38,8 +32,19 @@
     tenantId：
         kefu.easemob.com，“管理员模式 > 设置 > 企业信息”页面的“租户ID”
         
-        
-## 2.API
+#### Ios:
+1.在 iOS 工程 target 的 Build Phases->Link Binary with Libraries 中加入如下库：
+
+    libz
+    libc++
+    libsqlite3.0
+    libstdc++.6.0.9
+2.该bundle文件放到ios主工程下
+
+    http://7xt3sl.com2.z0.glb.qiniucdn.com/Root%202.bundle.zip
+
+      
+## 2.API（android）
 ##### 1.初始化
 在componentDidMount()中添加：
 
