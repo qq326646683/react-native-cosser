@@ -1,3 +1,4 @@
+这是android文档，ios文档待整理
 ## 1.INSTALL
 1.npm install react-native-cosser --save
 
