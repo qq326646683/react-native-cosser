@@ -66,12 +66,14 @@ public class CosSerModule extends ReactContextBaseJavaModule {
                 Intent intent = new IntentBuilder(mContext)
                         .setServiceIMNumber(serviceId) //获取地址：kefu.easemob.com，“管理员模式 > 渠道管理 > 手机APP”页面的关联的“IM服务号”
                         .build();
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mContext.startActivity(intent);
             }else {
                 Intent intent = new IntentBuilder(mContext)
                         .setServiceIMNumber(serviceId) //获取地址：kefu.easemob.com，“管理员模式 > 渠道管理 > 手机APP”页面的关联的“IM服务号”
                         .setScheduleAgent(ContentFactory.createAgentIdentityInfo(cosserEmail))
                         .build();
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mContext.startActivity(intent);
             }
 
